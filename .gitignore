@@ -1,0 +1,12 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary/backup files
+*.log
+*.tmp
+*.bak
+# Ignore build tools
+node_modules/
+dist/
+.env
