@@ -1,12 +1,9 @@
-# Ignore system files
+# Ignore system and temp files
 .DS_Store
 Thumbs.db
-
-# Ignore temporary/backup files
 *.log
 *.tmp
 *.bak
-# Ignore build tools
 node_modules/
 dist/
 .env

@@ -1,0 +1,22 @@
+# Normalize line endings for all text files
+* text=auto
+
+# Treat media and fonts as binary to prevent diffing
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webm binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+
+# Ensure consistent UTF-8 line endings
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+
+# GitHub linguist language enhancements
+*.md linguist-language=Markdown
+*.css linguist-language=CSS
